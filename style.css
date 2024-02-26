@@ -1,0 +1,199 @@
+body{
+    text-align: center;
+    margin: 0px;
+}
+
+.upperSection {
+    background-color: #F6F5F5;
+    height: 833px;
+    line-height: 70px;
+  }
+  
+.middleSection1 {
+    padding: 0px;
+    background-color: #CCD3CA;
+    height: 833px;
+  }
+
+.greeting { 
+    position: relative;
+    top: 60px;
+    margin: auto auto auto auto;
+}
+
+.middleSection2 {
+    padding: 0px;
+    background-color: #FEECE2;
+    height: 833px;
+  }
+
+.doctorMessage {
+    position: absolute;
+    right: 100px;
+    width: 50%;
+    font-size: 1.3rem;
+}
+
+.bottomSection {
+    padding: 0px;
+    background-color: #B5C0D0;
+    height: 833px;
+  }
+
+.bottomSection a {
+    font-size: 1.6rem;
+    font-family: "Merriweather", serif;
+    color: black;
+}
+
+#upperCloud {
+    height: 70px;
+    position : absolute;
+    top: 110px;
+    right : 130px;
+}
+
+#lowerCloud {
+    height: 70px;
+    position : absolute;
+    top: 400px;
+    left : 150px;
+}
+
+h1 {
+    position: relative;
+    bottom : 2rem;
+    font-size: 5.6rem;
+    font-family: "Sacramento", cursive;
+}
+
+h2 {
+    font-family: "Merriweather", serif;
+    font-size: 2.5rem;
+    margin: 7rem auto 3rem auto;
+}
+
+.firstP {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: auto auto auto auto;
+}
+
+p {
+    font-family: "Merriweather", serif;
+    margin: 0px;
+    font-size: 1.3rem;
+    width: 50%;
+}
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+hr {
+    margin: 0px;
+}
+
+.myImage {
+    height: 300px;
+}
+
+.doctorImage {
+    height: 500px;
+    float: left;
+    margin: 100px 30px auto 100px;
+    position: relative;
+    bottom: 100px;
+}
+
+div {
+    margin-top: 0px;
+    padding: 10px;
+}
+
+img {
+    height : 200px;
+}
+table {
+    width: 70%;
+    position: relative;
+    top: 0px;
+    padding: 70px;
+    margin: auto auto auto auto;
+    border-spacing: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 25px; /* 이 값을 조정하여 버튼의 둥근 모서리를 만듭니다 */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* 버튼에 마우스 오버 시 효과를 위한 transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: rgba(0, 0, 255, 0.7); /* 푸른색 배경을 투명도 70%로 설정 */
+    color: rgba(255, 255, 255, 0.7); /* 흰색 텍스트를 투명도 70%로 설정 */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+/* 버튼이 눌렸을 때 눌리는 효과 */
+button:active {
+    transform: translateY(2px); /* Y축으로 2px 이동하여 눌림 효과 */
+    background-color: rgba(0, 0, 255, 0.5); /* 배경 색상을 더 흐리게 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    font-size: 1.6rem;
+    font-family: "Merriweather", serif;
+    text-decoration: none;
+    transition: 0.3s ease
+}
+
+a:hover { 
+    color : white;
+}
+
+
+td {
+    align-items: center;
+    font-size: 1.6rem;
+    font-family: "Merriweather", serif;
+}
+
+.lastLine {
+    height: 200px;
+    background: #66BFBF;
+    display: grid;
+    place-items: center;
+    color: #11999E;
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+}
+
+#lastcall {
+    margin-top: 40px;
+}
+
+#lastcall span {
+    margin: 40px;
+}
+
+#lastcall a{
+    color: #11999E;
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+}
+
+#lastcall a:hover {
+    color : white;
+}
